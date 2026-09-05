@@ -1,0 +1,15 @@
+.top-lists-button {
+    text-decoration: none;
+    color: black;
+    padding: 2px 8px 2px 8px;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-shadow: 2px 2px 0 1px black;
+    width: 30%;
+
+    transition: all .3s ease;
+}
+
+.top-lists-button:hover {
+  box-shadow: 0 0 0 0 black;
+}

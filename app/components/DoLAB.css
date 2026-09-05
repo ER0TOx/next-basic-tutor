@@ -1,0 +1,22 @@
+.dolab-group {
+    width: 100%;
+    background-color: rgb(155, 255, 183);
+    border: 1px dashed rgb(141, 255, 141);
+    border-radius: 4px;
+    padding: 4px;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 2px 2px 0 1px black;
+
+    transition: all .3s ease;
+}
+
+.dolab-group * {
+    text-decoration: none;
+    color: black;
+}
+
+.dolab-group:hover {
+    box-shadow: 0 0 0 0 black;
+    background-color: rgb(141, 255, 141);
+}

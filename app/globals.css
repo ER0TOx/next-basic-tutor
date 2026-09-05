@@ -1,26 +1,105 @@
-@import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+::-webkit-scrollbar {
+  width: 0%;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+.video-group {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 8px;
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+video {
+  width: 80%;
+  border-radius: 4px;
+  box-shadow: 2px 2px 4px 1px hsl(0, 0%, 0%, .3);
+}
+
+.image-box-group {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 8px;
+}
+
+.image-box-group img {
+  width: 20%;
+  height: auto;
+  object-fit: contain;
+  border-radius: 4px;
+  box-shadow: 2px 2px 4px 1px hsl(0, 0%, 0%, .3);
+}
+
+ul {
+  list-style-type: disc;
+  padding-left: 1.5rem;
+}
+
+h4 {
+  border: 1px solid black;
+  width: fit-content;
+  padding: 4px;
+  border-radius: 4px;
+}
+
+/* Main layout */
+.main-layout {
+  margin: 12px;
+}
+
+.main-top,.main-side,.main-content {
+  border: 2px solid hsl(0, 0%, 0%);
+  border-radius: 4px;
+  padding: 8px;
+  box-shadow: 1px 1px 4px 1px hsl(0, 0%, 0%,.3);
+}
+
+.main-down {
+  display: flex;
+  gap: 8px;
+  width: 100%;
+  height: 89vh;
+}
+
+/* Top */
+.main-top {
+  margin-bottom: 8px;
+  display: flex;
+  gap: 16px;
+}
+
+/* Side */
+.main-side {
+  width: 10%;
+  height: 100%;
+  overflow-y: auto;
+}
+
+.main-side p {
+  cursor: pointer;
+  margin-bottom: 8px;
+  border: 1px solid black;
+  padding: 4px;
+  border-radius: 4px;
+  box-shadow: 2px 2px 0 1px black;
+
+  transition: all .3s ease;
+}
+.main-side p:hover {
+  box-shadow: 0 0 0 0 black;
+}
+
+/* Content */
+.main-content {
+  width: 90%;
+  height: 100%;
+  overflow-y: auto;
 }
