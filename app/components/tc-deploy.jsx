@@ -17,9 +17,13 @@ npm run start' title='ตรวจสอบว่าโค้ด build ได้
         </div>
         <div className="tutor-content-sub">
           <h4>Deploy</h4>
-          <p>Deploy คือการนำเว็บที่ build แล้วไปวางไว้บน Server เพื่อให้คนอื่นเข้าถึงผ่านอินเทอร์เน็ต</p>
-          <CodeBlock code='npm i -g vercel
-vercel' title='ติดตั้ง Vercel CLI แล้วรันเพื่อ deploy ไปยังเว็บจริง' language='terminal'/>
+          <ul>
+            <li>เข้าไปสร้าง Respository ใน <a href="https://github.com/" target='_blank'>Github</a></li>
+            <li>ให้ push ทั้งโปรเจกต์เข้า Respository ที่พึ้งสร้าง</li>
+            <li>เข้าเว็บ <a href="https://vercel.com/" target='_blank'>Vercel</a> แล้ว Add new project</li>
+            <li>เลือก Respository ของ Github ตัวเองแล้วกด import</li>
+            <li>สามารถกด Deploy ได้เลย แต่ถ้าเว็บตัวเองมีการใช้ Database หรือ API ก็ต้องเพิ่ม Environment variable เข้าไป</li>
+          </ul>
         </div>
         <DoLAB lab={labs[4]} link='/practice'/>
       </div>

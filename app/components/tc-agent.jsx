@@ -10,16 +10,16 @@ function TCAgent() {
       <div className="tutor-content-inside">
         <div className="tutor-content-sub">
           <h4>ติดตั้ง</h4>
-          <CodeBlock code='npm i -g opencode-ai' title='command prompt'/>
+          <CodeBlock code='npm i -g opencode-ai' title='ติดตั้ง opencode' language='cmd'/>
         </div>
         <div className="tutor-content-sub">
           <h4>เรียกใช้</h4>
-          <CodeBlock code='opencode' title='command prompt'/>
+          <CodeBlock code='opencode' title='ใช้งาน opencode' language='cmd'/>
           <Video src='/opencode-1.mp4'/>
         </div>
         <div className="tutor-content-sub">
           <h4>ตั้งค่า Model</h4>
-          <CodeBlock code='/models' title='command prompt'/>
+          <CodeBlock code='/models' title='เลือก models' language='cmd'/>
           <Video src='/opencode-2.mp4'/>
         </div>
       </div>

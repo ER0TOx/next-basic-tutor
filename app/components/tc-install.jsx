@@ -16,7 +16,8 @@ function TCInstall() {
             <h4>สร้างโปรเจกต์</h4>
             <CodeBlock
               code="npx create-next-app@latest ."
-              title="Command Prompt"
+              title="ติดตั้งโปรเจกต์"
+              language='cmd'
             />
           </div>
           <div className="tutor-content-sub">
@@ -25,7 +26,7 @@ function TCInstall() {
           </div>
           <div className="tutor-content-sub">
             <h4>รันเว็บ</h4>
-            <CodeBlock code="npm run dev" title="Command Prompt" />
+            <CodeBlock code="npm run dev" title="เปิดเว็บในโหมด Development" language='cmd' />
           </div>
           <div className="tutor-content-sub">
             <h4>ติดตั้ง Extension ใน Visual code</h4>
