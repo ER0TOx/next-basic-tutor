@@ -13,7 +13,7 @@ function TCDeploy() {
           <h4>Build</h4>
           <p>Build คือการแปลง Project ให้เป็นเวอร์ชันพร้อมใช้งานจริง (production) ใช้ตรวจสอบว่าโค้ดไม่มี error</p>
           <CodeBlock code='npm run build
-npm run start' title='ตรวจสอบว่าโค้ด build ได้หรือไม่ แล้วเปิดด้วย production server' language='terminal'/>
+npm run start' title='ตรวจสอบว่าโค้ด build ได้หรือไม่ แล้วเปิดด้วย production server' language='cmd'/>
         </div>
         <div className="tutor-content-sub">
           <h4>Deploy</h4>
@@ -25,7 +25,7 @@ npm run start' title='ตรวจสอบว่าโค้ด build ได้
             <li>สามารถกด Deploy ได้เลย แต่ถ้าเว็บตัวเองมีการใช้ Database หรือ API ก็ต้องเพิ่ม Environment variable เข้าไป</li>
           </ul>
         </div>
-        <DoLAB lab={labs[4]} link='/practice'/>
+        <DoLAB lab={labs[5]} link='/practice#lab-portfolio'/>
       </div>
     </div>
   )

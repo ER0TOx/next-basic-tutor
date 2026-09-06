@@ -1,9 +1,10 @@
 const labs = [
     '① Navbar',
-    '② Profile steam',
-    '③ Form',
-    '④ My Chatbot',
-    '⑤ Porfolio'
+    '② Bigger button',
+    '③ Add list',
+    '④ Profile editor',
+    '⑤ My Chatbot',
+    '⑥ Porfolio'
 ];
 
 export default labs;

@@ -61,7 +61,7 @@ export async function Gemini(prompt) {
 }" title='สร้าง Component สำหรับติดต่อกับ gemini api' language='gemini.js'/>
         <CodeBlock code='' title='เรียกใช้ Gemini' language='page.jsx'/>
         </div> */}
-        <DoLAB lab={labs[3]} link='/practice'/>
+        <DoLAB lab={labs[4]} link='/practice#lab-chatbot'/>
       </div>
     </div>
   )

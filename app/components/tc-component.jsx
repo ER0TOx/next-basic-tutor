@@ -92,7 +92,7 @@ export default Home" title='ลบ text ออกแล้วเปลี่ย�
             </ul>
           </div>
           <div className="tutor-content-sub">
-            <DoLAB lab={labs[0]} link='/practice'/>
+            <DoLAB lab={labs[0]} link='/practice#lab-navbar'/>
           </div>
         </div>
       </div>

@@ -49,7 +49,8 @@ function Form() {
 }
 export default Form' title='สร้าง form ที่เมื่อกด Submit จะนำค่าที่กรอกไปแสดงผล' language='form.jsx'/>
         </div>
-        <DoLAB lab={labs[2]} link='/practice'/>
+        <DoLAB lab={labs[2]} link='/practice#lab-list'/>
+        <DoLAB lab={labs[3]} link='/practice#lab-profile'/>
       </div>
     </div>
   )

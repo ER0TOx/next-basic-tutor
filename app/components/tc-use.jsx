@@ -80,7 +80,7 @@ function Counter() {
 }
 export default Counter"' title='State เปลี่ยนจะทำให้หน้าเว็บ re-render ใหม่แล้ว useEffect จะตรวจว่า num เปลี่ยนจากรอบก่อนหรือไม่ ถ้าเปลี่ยนให้รันคำสั่งใน useEffect ทันที' language='counter.jsx'/>
         </div>
-        <DoLAB lab={labs[1]} link='/practice'/>
+        <DoLAB lab={labs[1]} link='/practice#lab-bigger'/>
       </div>
     </div>
   )
