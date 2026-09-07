@@ -25,6 +25,12 @@ npm run start' title='ตรวจสอบว่าโค้ด build ได้
             <li>สามารถกด Deploy ได้เลย แต่ถ้าเว็บตัวเองมีการใช้ Database หรือ API ก็ต้องเพิ่ม Environment variable เข้าไป</li>
           </ul>
         </div>
+        <div className="tutor-content-sub">
+          <h4>วิธีอัพเดทเว็บตัวเอง</h4>
+          <CodeBlock code='git add .
+git commit -m "ข้อความอัพเดท"
+git push -u origin main' title='แค่ Push เข้า Github ตัว Vercel ก็จะอัพเดทให้อัติโนมัติ' language='cmd'/>
+        </div>
         <DoLAB lab={labs[5]} link='/practice#lab-portfolio'/>
       </div>
     </div>

@@ -32,7 +32,7 @@ function Home() {
     </>
   )
 }
-export default Home" title='Link' language='JSX'/>
+export default Home" title='Link' language='page.jsx'/>
             <p>ผลลัพธ์</p>
             <Video src='/pagelink-3.mp4'/>
           </div>
